@@ -1,0 +1,82 @@
+getgenv().Endorsed = {
+    Options = {
+        ['Intro'] = true, -- // Shows a Intro once injected.
+        ['Type'] = "Notification",
+    },
+    Silent_Aim = {
+        ['Keybind'] = "E", -- // Toggle Key For Silent Aim
+        ['Enabled'] = true, -- // Self Explanitory
+        ['Mode'] = "Normal", -- // Target Or Normal
+        ['Aiming_Type'] = "Part",
+        ['ClosestPart'] = true, -- // Gets Closest Part On The Player
+        ['Predict'] = true,
+        ['Prediction'] = 0.131, -- // Prediction Of Silent
+        ['HitChance'] = 100, -- // Hit Changc To Hit More/Less Shots
+        ['Part'] = "HumanoidRootPart", -- // HitPart of where the silent shoots.
+    },
+    Aim_Assist = {
+        ['Key'] = "C", -- // Toggle key of aim assist
+        ['Enabled'] = true, -- // Self-explanatory
+        ['Prediction'] = 0, -- // Prediction on the aim assist
+        ['Smoothness'] = 1, -- // Smoothness of the aim assist
+        ['AimPart'] = "UpperTorso",
+        ['DisableOutSideFov'] = true,
+        ['Nearest_Part'] = false,
+    },    
+    FOV = {
+        ['Visible'] = true, -- // // FOV visible or not
+        ['Radius'] = 40, -- // FOV radius
+        ['Color'] = Color3.fromRGB(0, 162, 255), -- // Color of FOV
+        ['Filled'] = false,
+        ['Transparency'] = 0.25,
+        ['Thickness'] = 1, -- // Thickness of FOV
+        ['NumSides'] = 25,
+    },
+    Shake = {
+        ['Shake_Enabled'] = false,
+        ['X'] = 20,
+        ['Y'] = 30,
+        ['Z'] = 20
+    },
+    Easing_Styles = {
+        ['Easing1'] = Enum.EasingStyle.Elastic, -- // Style
+        ['Easing2'] = Enum.EasingStyle.Sine -- // Direction
+    },
+	AutoPrediction = {
+        ['Enabled'] = false,
+        ['RefreshRate'] = 0.1,
+        ['Ping_10'] = 0.10,
+        ['Ping_20'] = 0.11,
+        ['Ping_30'] = 0.12,
+        ['Ping_40'] = 0.123,
+        ['Ping_50'] = 0.125,
+        ['Ping_60'] = 0.127,
+        ['Ping_70'] = 0.133,
+        ['Ping_80'] = 0.134,
+        ['Ping_90'] = 0.1365,
+        ['Ping_100'] = 0.1374,
+        ['Ping_110'] = 0.12,
+        ['Ping_120'] = 0.12,
+        ['Ping_130'] = 0.12,
+        ['Ping_140'] = 0.13,
+        ['Ping_150'] = 0.1405,
+    },    
+    FPS = {
+        ['FPSUnlocker'] = true, -- // Unlocks your fps.
+        ['FPSBoost'] = true, -- // Turns On Low GFX
+        ['Limit'] = 300 -- // Limit Of The FPS You Want
+    },    
+    Checks = { -- // Da Hood Checks, ETC.
+        ['Death'] = true, -- // Checks if you are dead.
+        ['Knocked'] = true, -- // Checks If The Target Is Knocked
+        ['Wall'] = true, -- // Checks If Target Is Not In Sight
+        ['Crew'] = false, -- // Won't Lock Onto Them If They Are In Your Crew
+        ['Friend'] = true, -- // Checks If They Are On Your Friends list
+
+    },
+    Macro = {
+        ['Enabled'] = true, -- // Self Explanitory
+        ['Keybind'] = "X", -- // Keybind Of Macro
+        ['Type'] = "Normal",
+    }
+}
